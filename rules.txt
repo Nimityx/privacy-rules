@@ -24,6 +24,7 @@
 ! Facebook
 ||connect.facebook.net^
 ||connect.facebook.net/en_US/fbevents.js^
+||connect.facebook.net/en_US/all.js^
 ||facebook.com/tr^
 ||www.facebook.com/tr^
 
