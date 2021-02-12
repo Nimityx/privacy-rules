@@ -1,0 +1,68 @@
+[Adblock Plus 2.0]
+! Title: Privacy Rules
+! https://github.com/Nimityx/privacy-rules
+! Author: Nimityx | https://github.com/Nimityx
+! 
+! Rules to protect your privacy and security
+
+
+! Rules contributed by Nimityx
+! https://github.com/Nimityx
+
+! Google
+||googletagmanager.com^
+||www.googletagmanager.com^
+||google-analytics.com^
+||www.google-analytics.com^
+||www.googletagmanager.com/gtm.js^
+||ssl.google-analytics.com^
+||ssl.google-analytics.com/ga.js^
+/google_tag_manager_component/google_tag_manager_component.js^
+/google_tag_manager_component.js^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^
+
+! Facebook
+||connect.facebook.net^
+||connect.facebook.net/en_US/fbevents.js^
+||facebook.com/tr^
+||www.facebook.com/tr^
+
+! Instagram
+||graph.instagram.com/logging_client_events^
+||instagram.com/ajax/bz^
+||www.instagram.com/ajax/bz^
+||instagram.com/logging/falco^
+||www.instagram.com/logging/falco^
+
+! Cloudflare
+/cdn-cgi/bm/cv/669835187/api.js^
+
+! Wikipedia
+||en.wikipedia.org/beacon/media^
+
+! Github
+||collector.githubapp.com^
+||collector.githubapp.com/github/page_view^
+||api.github.com/_private/browser/stats^
+
+! Amazon
+||amazon-adsystem.com^
+
+! Fingerprinting
+/fingerprint.js^
+/fingerprint2.js^
+/fp.min.js^
+/fp.umd.min.js^
+||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js^
+||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.umd.min.js^
+/picasso_canvas.js^
+
+! Malware
+||opengolad.com^
+||opengolad.com/v2/event^
+||vkautotech.in^
+||vkautotech.in/new/10N3euF4eb8SYzua.exe^
+||innovaccer.com^
+||soberlifeco.com^
+||soberlifeco.com/contra/storage.php^
+||arizonacode.bplaced.net^
