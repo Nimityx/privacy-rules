@@ -3,11 +3,15 @@
 ! https://github.com/Nimityx/privacy-rules
 ! Author: Nimityx | https://github.com/Nimityx
 ! 
-! Rules to protect your privacy and security
+! Rules to block ads and protect your privacy and security
 
 
 ! Rules contributed by Nimityx
 ! https://github.com/Nimityx
+
+! Ads
+||ad.buzzvil.com^
+||hk3-bid.adsrvr.org^
 
 ! Google
 ||googletagmanager.com^
@@ -19,7 +23,10 @@
 ||ssl.google-analytics.com/ga.js^
 /google_tag_manager_component/google_tag_manager_component.js^
 /google_tag_manager_component.js^
+||pagead2.googlesyndication.com^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^
+||securepubads.g.doubleclick.net^
+||securepubads.g.doubleclick.net/tag/js/gpt.js^
 
 ! Facebook
 ||connect.facebook.net^
