@@ -27,6 +27,18 @@
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^
 ||securepubads.g.doubleclick.net^
 ||securepubads.g.doubleclick.net/tag/js/gpt.js^
+/document/d/*/naLogImpressions^
+||docs.google.com/document/d/*/naLogImpressions^
+/spreadsheets/d/*/naLogImpressions^
+||docs.google.com/spreadsheets/d/*/naLogImpressions^
+/presentation/d/*/naLogImpressions^
+||docs.google.com/presentation/d/*/naLogImpressions^
+/document/d/*/analytics/appbarviewstatus^
+||docs.google.com/document/d/*/analytics/appbarviewstatus^
+/spreadsheets/d/*/analytics/appbarviewstatus^
+||docs.google.com/spreadsheets/d/*/analytics/appbarviewstatus^
+/presentation/d/*/analytics/appbarviewstatus^
+||docs.google.com/presentation/d/*/analytics/appbarviewstatus^
 
 ! Facebook
 ||connect.facebook.net^
@@ -67,10 +79,10 @@
 
 ! Malware
 ||opengolad.com^
-||opengolad.com/v2/event^
 ||vkautotech.in^
-||vkautotech.in/new/10N3euF4eb8SYzua.exe^
 ||innovaccer.com^
 ||soberlifeco.com^
-||soberlifeco.com/contra/storage.php^
 ||arizonacode.bplaced.net^
+! ||opengolad.com/v2/event^
+! ||vkautotech.in/new/10N3euF4eb8SYzua.exe^
+! ||soberlifeco.com/contra/storage.php^
