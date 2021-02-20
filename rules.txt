@@ -1,5 +1,5 @@
-! Title: Privacy Rules
-! Homepage: https://github.com/Nimityx/privacy-rules
+! Title: Multipurpose Rules, rules to block ads and protect your privacy and security
+! Homepage: https://github.com/Nimityx/multipurpose-rules
 ! Author: Nimityx | https://github.com/Nimityx
 ! Description: Rules to block ads and protect your privacy and security
 
