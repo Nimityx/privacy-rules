@@ -1,2 +1,2 @@
 # multipurpose-rules
-filter list that removes forms of tracking from the internet
+Rules to block ads and protect your privacy and security
