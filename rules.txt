@@ -19,7 +19,7 @@
 ||securepubads.g.doubleclick.net^
 /logImpressions?
 /naLogImpressions?
-||docs.google.com/*/d/*/analytics/appbarviewstatus^
+||docs.google.com/*/d/*/analytics/appbarviewstatus
 ! ||www.googletagmanager.com^
 ! ||www.google-analytics.com^
 ! ||www.googletagmanager.com/gtm.js^
@@ -43,9 +43,9 @@
 
 ! Facebook
 ||connect.facebook.net^
-||facebook.com/tr^
-||facebook.com/ajax/bz^
-||facebook.com/logging/falco^
+||facebook.com/tr
+||facebook.com/ajax/bz
+||facebook.com/logging/
 ||graph.facebook.com^
 ! ||connect.facebook.net/en_US/fbevents.js^
 ! ||connect.facebook.net/en_US/all.js^
@@ -53,8 +53,8 @@
 
 ! Instagram
 ||graph.instagram.com^
-||instagram.com/ajax/bz^
-||instagram.com/logging/falco^
+||instagram.com/ajax/bz
+||instagram.com/logging/
 ! ||www.instagram.com/ajax/bz^
 ! ||www.instagram.com/logging/falco^
 ! ||graph.instagram.com/logging_client_events^
@@ -64,11 +64,11 @@
 ||graph.whatsapp.net^
 ||crashlogs.whatsapp.net^
 ||graph.whatsapp.com^
-||whatsapp.com/ajax/bz^
-||whatsapp.com/logging/falco^
+||whatsapp.com/ajax/bz
+||whatsapp.com/logging/
 
 ! Cloudflare
-/cdn-cgi/bm/cv/669835187/api.js^
+/cdn-cgi/bm/cv/669835187/api.js
 
 ! Wikipedia
 ||en.wikipedia.org/beacon/media^
@@ -82,11 +82,11 @@
 ||amazon-adsystem.com^
 
 ! Fingerprinting
-/fingerprint.js^
-/fingerprint2.js^
-/fp.min.js^
-/fp.umd.min.js^
-/picasso_canvas.js^
+/fingerprint.js
+/fingerprint2.js
+/fp.min.js
+/fp.umd.min.js
+/picasso_canvas.js
 ! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js^
 ! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.umd.min.js^
 
