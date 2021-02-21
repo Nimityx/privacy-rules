@@ -8,7 +8,8 @@
 
 ! Ads
 ||ad.buzzvil.com^
-||hk3-bid.adsrvr.org^
+||adsrvr.org^
+! ||hk3-bid.adsrvr.org^
 
 ! Google
 ||googletagmanager.com^
@@ -19,7 +20,7 @@
 ||securepubads.g.doubleclick.net^
 /logImpressions?
 /naLogImpressions?
-||docs.google.com/*/d/*/analytics/appbarviewstatus
+||google.com/*/d/*/analytics/
 ! ||www.googletagmanager.com^
 ! ||www.google-analytics.com^
 ! ||www.googletagmanager.com/gtm.js^
@@ -68,10 +69,10 @@
 ||whatsapp.com/logging/
 
 ! Cloudflare
-/cdn-cgi/bm/cv/669835187/api.js
+/cdn-cgi/bm/cv/669835187/api.js$script
 
 ! Wikipedia
-||en.wikipedia.org/beacon/media^
+||wikipedia.org/beacon/
 
 ! Github
 ||collector.githubapp.com^
@@ -83,10 +84,17 @@
 
 ! Fingerprinting
 /fingerprint.js
+/fingerprint.min.js
 /fingerprint2.js
+/fingerprint2.min.js
+/fingerprint3.js
+/fingerprint3.min.js
+/fingerprintjs2.
 /fp.min.js
 /fp.umd.min.js
 /picasso_canvas.js
+/fpCollect.js
+/fpScanner.js
 ! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js^
 ! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.umd.min.js^
 
