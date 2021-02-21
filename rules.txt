@@ -21,6 +21,7 @@
 /logImpressions?
 /naLogImpressions?
 ||google.com/*/d/*/analytics/
+||google.com/maps/preview/log204
 ! ||www.googletagmanager.com^
 ! ||www.google-analytics.com^
 ! ||www.googletagmanager.com/gtm.js^
