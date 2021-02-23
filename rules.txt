@@ -49,6 +49,7 @@
 ||facebook.com/ajax/bz
 ||facebook.com/logging/
 ||graph.facebook.com^
+||facebook.com/plugins/likebox.php
 ! ||connect.facebook.net/en_US/fbevents.js^
 ! ||connect.facebook.net/en_US/all.js^
 ! ||www.facebook.com/tr^
