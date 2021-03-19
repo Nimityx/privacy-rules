@@ -20,6 +20,15 @@ usnews.com##.bjZOxM.iOBzTK.StickyPromo__ContentBox-zb409o-4.Box-w0dun1-0
 quizlet.com##.StickyAdz
 ! ||hk3-bid.adsrvr.org^
 
+! Analytics
+_comscore.
+||adobedtm.com^$3p,domain=~adobe.com
+||demdex.net^
+||omtrdc.net^
+||everesttech.net^
+||scorecardresearch.com^
+||e-corp-usa.com/pageview_candidate.html$xmlhttprequest
+
 ! Google
 ||googletagmanager.com^
 ||google-analytics.com^
