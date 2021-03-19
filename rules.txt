@@ -148,11 +148,5 @@ _comscore.
 ! ||cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.umd.min.js^
 
 ! Malware
-||opengolad.com^
-||vkautotech.in^
-||innovaccer.com^
-||soberlifeco.com^
-||arizonacode.bplaced.net^
-! ||opengolad.com/v2/event^
-! ||vkautotech.in/new/10N3euF4eb8SYzua.exe^
-! ||soberlifeco.com/contra/storage.php^
+! Moved to https://github.com/Nimityx/malwarehosts
+! https://raw.githubusercontent.com/Nimityx/malwarehosts/main/hosts
