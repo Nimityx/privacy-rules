@@ -2,6 +2,7 @@
 ! Homepage: https://github.com/Nimityx/multipurpose-rules
 ! Author: Nimityx | https://github.com/Nimityx
 ! Description: Rules to block ads and protect your privacy and security
+! Contact: c93c81b9-b581-4651-89fc-a416fd69558e [at] anonaddy.me
 
 ! Rules contributed by Nimityx
 ! https://github.com/Nimityx
@@ -16,24 +17,25 @@ gadgets.ndtv.com##iframe#jsw-iframe
 ||omnicoreagency.com/wp-content/uploads/2017/11/Digital-Ladder.jpg$image
 ||stellarinfo.com/blog/wp-content/uploads/2020/06/Pro.jpg$image
 usnews.com##.bjZOxM.iOBzTK.StickyPromo__ContentBox-zb409o-4.Box-w0dun1-0
-secretsofsurvival.com##.bestpicks.su-row
 quizlet.com##.StickyAdz
 ! ||hk3-bid.adsrvr.org^
 
 ! Google
 ||googletagmanager.com^
 ||google-analytics.com^
-/google_tag_manager_component/
-/google_tag_manager_component.js
-||pagead2.googlesyndication.com^
-||securepubads.g.doubleclick.net^
+||googleadservices.com
+/google_tag_manager_component
+||googlesyndication.com^
+||doubleclick.net^
 /viewerImpressions
 /logImpressions
 /naLogImpressions
-||google.com/*/d/*/analytics/
 ||google.com/maps/preview/log204
-||google.com^*/gen204
-||google.com^*/gen_204
+||google.*/gen204
+||google.*/gen_204
+||google.*/ads
+||google.*/pagead
+||adservice.google.*
 ||accounts.google.com$3p
 ||chrome.google.com/webstore/ajax/eventlog$xmlhttprequest
 ||chrome.google.com/webstore/ajax/logreferrerchain/$xmlhttprequest
@@ -43,8 +45,12 @@ quizlet.com##.StickyAdz
 ! ||www.googletagmanager.com/gtm.js^
 ! ||ssl.google-analytics.com^
 ! ||ssl.google-analytics.com/ga.js^
+! /google_tag_manager_component/
+! /google_tag_manager_component.js
 ! /google_tag_manager_component/google_tag_manager_component.js^
-! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^
+! ||pagead2.googlesyndication.com^
+! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^\
+! ||securepubads.g.doubleclick.net^
 ! ||securepubads.g.doubleclick.net/tag/js/gpt.js^
 ! /document/d/*/naLogImpressions^
 ! ||docs.google.com/document/d/*/naLogImpressions^
@@ -52,6 +58,7 @@ quizlet.com##.StickyAdz
 ! ||docs.google.com/spreadsheets/d/*/naLogImpressions^
 ! /presentation/d/*/naLogImpressions^
 ! ||docs.google.com/presentation/d/*/naLogImpressions^
+! ||google.com/*/d/*/analytics/
 ! /document/d/*/analytics/appbarviewstatus^
 ! ||docs.google.com/document/d/*/analytics/appbarviewstatus^
 ! /spreadsheets/d/*/analytics/appbarviewstatus^
@@ -86,8 +93,17 @@ quizlet.com##.StickyAdz
 ||whatsapp.com/ajax/bz
 ||whatsapp.com/logging/
 
+! Twitter
+||ads-twitter.com^
+||analytics.twitter.com^
+||syndication.twitter.com^
+||t.co/i/adsct
+
+! Tiktok
+||analytics.tiktok.com
+
 ! Cloudflare
-/cdn-cgi/bm/cv/669835187/api.js$script
+/cdn-cgi/bm/cv/669835187/api.js
 
 ! Wikipedia
 ||wikipedia.org/beacon/
@@ -99,6 +115,9 @@ quizlet.com##.StickyAdz
 
 ! Amazon
 ||amazon-adsystem.com^
+
+! Alibaba
+||lbsapp.cn.goolink.org^
 
 ! JW Player
 ||jwpltx.com^*/ping.gif
